@@ -58,6 +58,9 @@ Idea (later)
 - Review Completed Ideas For Reference.
 - Revisit Saved Ideas When The Respective Viewer Is Available and Returned To The Stream.
 
+## Versioning
+This website follows [Semantic Versioning](https://semver.org/). You can view the full [Changelog](https://github.com/ArsenTech/idea-checklist/blob/main/CHANGELOG.md) for details on each website version.
+
 ## Bugs and Feature Requests
 If you want to report a bug or request a Feature, write an Issue, and I'll be in touch with you soon.
 
