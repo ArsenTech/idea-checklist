@@ -1,5 +1,5 @@
 # Change Log
-All notable changes of my website will be documented here.
+All notable changes of Idea Checklist will be documented here.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
