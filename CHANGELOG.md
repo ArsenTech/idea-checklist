@@ -8,7 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Highlights
 - The initial release of the app was built in Early March-April 2025. And now **it's released!**
 - Special thanks to [ZeRoTeCh00](https://www.youtube.com/@ZeRoTeCh00) for showcasing the app!
-### New Features
+### Added
 - **Add** Button with 2 options (Add an Idea, Bulk Add Ideas)
 - Themes (Light, Dark, Terminal)
 - Tabs (Pending, Saved For Later, Completed)
@@ -20,7 +20,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - **Clear All** Button to clear all saved or completed ideas (Applied on **Saved For Later** and **Completed** pages)
 - Auto Save Feature (It updates the Local Storage every time you do actions on the app)
 - Sub-Menu for easier access to these actions
-### New Pages
+### Added Pages
 - About page
 - Pending List
 - Saved for later List
