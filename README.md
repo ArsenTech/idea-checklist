@@ -9,12 +9,12 @@
      <a href="https://github.com/ArsenTech/idea-checklist/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
 </p>
 
+![version][version-shield]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![project_license][license-shield]][license-url]
-![version][version-shield]
 [![downloads][downloads-shield]][downloads-url]
 [![build-status][status-shield]][status-url]
 ![commits since latest release][commits-since-shield]
