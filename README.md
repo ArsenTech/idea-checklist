@@ -1,5 +1,5 @@
 <p align="center">
-     <img src=".github/readme-logo.png">
+     <img src=".github/readme-logo.png" alt="Idea Checklist" width="120" height="120">
 </p>
 <h1 align="center">Idea Checklist</h3>
 <p align="center">A simple and efficient software for Tech YouTube Streamers to manage ideas during the live stream</p>
