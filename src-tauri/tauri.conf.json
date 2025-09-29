@@ -30,6 +30,15 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "windows": {
+      "nsis": {
+        "compression": "zlib",
+        "installMode": "currentUser",
+        "sidebarImage": "setup-image/sidebar-image.png",
+        "headerImage": "setup-image/header-image.png",
+        "installerIcon": "setup-image/installer-icon.ico"
+      }
+    }
   }
 }
