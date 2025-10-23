@@ -1,92 +1,130 @@
-# Contributing
+<p align="center">
+  <img src=".github/readme-logo.png" alt="Idea Checklist" width="150" height="150">
+</p>
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+<h1 align="center">Contributing Guide to Idea Checklist</h1>
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+First off, thanks for considering contributing to this project!  
+Your ideas, time, and effort help make it better for everyone. 🌱
 
-## Pull Request Process
+We welcome all kinds of contributions: **code**, **design**, **documentation**, **bug reports**, **feature ideas**, and **feedback**.  
+This guide explains how you can get involved.
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+---
 
-## Code of Conduct
+## 🚀 Ways to Contribute
+You don’t need to write code to make a valuable contribution! Here are some great ways:
+- **Development** – Fix bugs, add features, or refactor code.
+- **Testing & Bug Reports** – Try the app on different devices and report any issues.
+- **Design & UI Feedback** – Suggest layout, accessibility, or UX improvements.
+- **Feature Requests** – Share your ideas for improvements by opening a feature request.
+- **Community Support** – Answer questions in issues and help others get started.
 
-### Our Pledge
+## ✅ Pull Request Guidelines
+When submitting a PR:
+1. Create a branch from `main`:
+   ```bash
+   git checkout -b <type>/<short-description>
+   # examples: feature/i18n, fix/typo, i18n/fr-french
+   ```
+2. Keep commits small and meaningful.
+3. Ensure the app builds and passes linting/tests.
+4. Update docs (README, CHANGELOG) if you changed behavior or added features.
+5. Open the PR and describe what you changed and why..
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+### PR Checklist
+- [ ] My changes work locally (`npm run dev`).
+- [ ] I’ve updated documentation/screenshots if needed.
+- [ ] I’ve tested on multiple browsers/devices.
+- [ ] My commit messages are clear and signed (`git commit -s -m "your message"`).
 
-### Our Standards
+## 📝 Commit Convention (Optional but Recommended)
+We recommend following the [Conventional Commits](https://www.conventionalcommits.org/) format:
+- `feat:` for new features
+- `fix:` for bug fixes
+- `docs:` for documentation
+- `refactor:` for code improvements
+- `chore:` for maintenance
 
-Examples of behavior that contributes to creating a positive environment
-include:
+Example:
+```
+feat: add bulk idea selection feature
+```
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+## 📦 Development Setup
+> [!IMPORTANT]
+> Before Development, make sure you've installed and updated Rust
+> - Check for **Rust** updates by using `rustup update`
+> - Install The **Tauri CLI** globally (Optional but Recommended)
+>     ```
+>     npm install -g @tauri-apps/cli
+>     ```
+> If the build fails, make sure you also have required platform dependencies (like **Visual Studio Build Tools** on Windows, **libwebkit2gtk** on Linux, or **Xcode** on macOS).
 
-Examples of unacceptable behavior by participants include:
+1. Fork the repository and clone your fork:
+      ```bash
+      git clone https://github.com/ArsenTech/idea-checklist.git
+      cd idea-checklist
+      ```
+2. Install dependencies:
+      ```bash
+      npm install
+      ```
+3. Run the development server:
+      ```bash
+      npm run tauri dev
+      ```
+4. Wait until `rustup` compiles the dependencies, and the window will appear.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+PRs are reviewed with kindness and calmness :-)
 
-### Our Responsibilities
+## 🧪 Testing
+Before submitting a PR:
+- Test **light and dark mode**.
+- Verify **responsiveness** and **accessibility** on desktop.
+- Ensure existing features (like managing ideas and bulk additions), new features, and improvements work correctly.
+- Make sure there are **no console errors** and **no linting issues**.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+## 💡 Feedback & Feature Requests
+We love new ideas! If you have a suggestion:
+1. Check [existing issues][issues-url]
+2. If it’s new, open a [feature request][new-feature-request-url].
+3. Explain the motivation and the desired implementation. (the Feature request template says it all ☺️)
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+## 🌱 Community Guidelines
+We aim to keep this space **welcoming and peaceful**:
+- Be respectful and constructive.
+- Focus on ideas, not individuals.
+- Keep discussions inclusive and on-topic.
+- Remember: behind every contribution is a person.
 
-### Scope
+### Dos and Don'ts
+| ✅ Do                           | ❌ Don’t                 |
+| ------------------------------- | ------------------------- |
+| Follow branch naming convention | Edit README for no reason |
+| Test before submitting          | Submit broken builds      |
+| Use clear commit messages       | Spam “fix typo” PRs       |
+| Respect code owner reviews      | Bypass linting            |
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+See our [Code of Conduct][code-of-conduct-url] for more.
 
-### Enforcement
+## 🙌 A Note of Thanks
+Contributors are what make this project thrive.
+Your time, ideas, and creativity are truly appreciated.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the developer at [the contact page](https://arsentech.github.io/#contact). All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The developer is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+Take a deep breath, enjoy the process — and let’s make something beautiful together ✨
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+Thanks for making Idea Checklist better!
 
-### Attribution
+> GitHub [@ArsenTech][github-url] &nbsp;&middot;&nbsp;
+> YouTube [@ArsenTech][yt-url] &nbsp;&middot;&nbsp;
+> Patreon [ArsenTech][patreon-url] &nbsp;&middot;&nbsp;
+> [ArsenTech's Website][website-url]
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+[issues-url]: https://github.com/ArsenTech/idea-checklist/issues
+[new-feature-request-url]: https://github.com/ArsenTech/idea-checklist/issues/new?assignees=&labels=&template=feature_request.md&title=
+[code-of-conduct-url]: https://github.com/ArsenTech/idea-checklist/blob/main/CODE_OF_CONDUCT.md
+[yt-url]:https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg
+[patreon-url]:https://www.patreon.com/ArsenTech
+[github-url]: https://github.com/ArsenTech
+[website-url]: https://arsentech.github.io
