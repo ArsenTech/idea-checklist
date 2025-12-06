@@ -25,3 +25,5 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Pending List
 - Saved for later List
 - Completed List
+
+[1.0.0]: https://github.com/ArsenTech/idea-checklist/releases/tag/idea-checklist-v1.0.0
