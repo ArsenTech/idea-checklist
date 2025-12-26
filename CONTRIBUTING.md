@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/readme-logo.png" alt="Idea Checklist" width="150" height="150">
+  <img src=".github/logo-mark.png" alt="Idea Checklist" width="500" height="115">
 </p>
 
 <h1 align="center">Contributing Guide to Idea Checklist</h1>

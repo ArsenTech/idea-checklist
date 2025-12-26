@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 ## [1.0.0] - 2025-06-24
 ### Highlights
-- The initial release of the app was built in Early March-April 2025. And now **it's released!**
+- The Idea checklist it's now **released!**
 - Special thanks to [ZeRoTeCh00](https://www.youtube.com/@ZeRoTeCh00) for showcasing the app!
 ### Added
 - **Add** Button with 2 options (Add an Idea, Bulk Add Ideas)
@@ -25,5 +25,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Pending List
 - Saved for later List
 - Completed List
+
+## 0.5.0 - 2025-04-03
+- This is the initial release of Idea Checklist
+- Originally built on Electron, now rewritten on Tauri for great performance
 
 [1.0.0]: https://github.com/ArsenTech/idea-checklist/releases/tag/idea-checklist-v1.0.0
