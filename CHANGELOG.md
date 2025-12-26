@@ -6,7 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ---
 ## [1.0.0] - 2025-06-24
 ### Highlights
-- The Idea checklist it's now **released!**
+- The Idea checklist is now **released!**
 - Special thanks to [ZeRoTeCh00](https://www.youtube.com/@ZeRoTeCh00) for showcasing the app!
 ### Added
 - **Add** Button with 2 options (Add an Idea, Bulk Add Ideas)
