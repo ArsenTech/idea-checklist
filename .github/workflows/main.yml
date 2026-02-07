@@ -52,7 +52,7 @@ jobs:
         with:
           tagName: idea-checklist-v__VERSION__
           releaseName: 'Idea Checklist v__VERSION__'
-          releaseBody: 'See the assets to download this version and install.'
+          releaseBody: '### Full Changelog: [`idea-checklist/CHANGELOG.md`](https://github.com/ArsenTech/idea-checklist/blob/main/CHANGELOG.md)'
           releaseDraft: true
           prerelease: false
           args: ${{ matrix.args }}
