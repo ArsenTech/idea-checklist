@@ -136,7 +136,7 @@ Distributed under the MIT License. See [LICENSE.md][license-url] for more inform
 [version-shield]: https://img.shields.io/github/package-json/v/ArsenTech/idea-checklist?style=for-the-badge
 [downloads-shield]: https://img.shields.io/github/downloads/ArsenTech/idea-checklist/total?style=for-the-badge&label=Total%20Downloads&color=%2322b455
 [downloads-url]:https://github.com/ArsenTech/idea-checklist/releases
-[status-shield]: https://img.shields.io/github/actions/workflow/status/ArsenTech/idea-checklist/main.yml?style=for-the-badge&color=%2322b455
+[status-shield]: https://img.shields.io/github/actions/workflow/status/ArsenTech/idea-checklist/main.yml?style=for-the-badge
 [status-url]: https://github.com/ArsenTech/idea-checklist/actions/workflows/main.yml
 [commits-since-shield]: https://img.shields.io/github/commits-since/ArsenTech/idea-checklist/latest?style=for-the-badge&color=%2322b455&label=Commits%20since%20latest%20version
 [created-at-shield]: https://img.shields.io/github/created-at/ArsenTech/idea-checklist?style=for-the-badge
