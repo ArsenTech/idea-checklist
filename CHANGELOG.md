@@ -26,8 +26,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Saved for later List
 - Completed List
 
+[1.0.0]: https://github.com/ArsenTech/idea-checklist/releases/tag/idea-checklist-v1.0.0
+
+---
+
 ## 0.5.0 - 2025-04-03
 - This is the initial release of Idea Checklist
 - Originally built on Electron, now rewritten on Tauri for great performance
-
-[1.0.0]: https://github.com/ArsenTech/idea-checklist/releases/tag/idea-checklist-v1.0.0
